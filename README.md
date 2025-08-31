@@ -12,39 +12,40 @@ This project is a Purchase Order Form built with React, HTML, CSS, and Bootstrap
 
 ## Getting Started
 
-**Install dependencies:**
+**🚀 Install dependencies:**
    ```bash
-   npm install
+   npm i --legacy-peer-deps
    ```
-
+🏃‍♂️ Run app:
+      npm run dev
+   
 ## Technical Features & Architecture
 
-- **Architecture**:  
+- Architecture:  
   - Modular and component-based architecture.
-  - Separation of concerns: UI components in `components/`, hooks in `hooks/`, utilities in `lib/`, and global styles in `styles/`.
-  - Centralized theme management via `components/theme-provider.tsx`.
-  - Page and layout structure managed in the `app/` directory.
+  - Separation of concerns: UI components in components/, hooks in hooks/, utilities in lib/, and global styles in styles/.
+  - Centralized theme management via components/theme-provider.tsx.
+  - Page and layout structure managed in the app/ directory.
 
-- **Best Practices**:  
+- Best Practices:  
   - Reusable and maintainable components.
   - Strong typing with TypeScript for reliability and scalability.
-  - Form validation using `react-hook-form` for robust user input handling.
+  - Form validation using react-hook-form for robust user input handling.
   - Responsive design with Bootstrap and Tailwind CSS.
   - Clean code conventions and consistent folder structure.
-  - Version control with `.gitignore` and clear separation of environment/config files.
+  - Version control with .gitignore and clear separation of environment/config files.
   - Accessibility considerations in form controls and UI elements.
 
-- **Technical Features**:  
+- Technical Features:  
   - Dynamic form sections and conditional rendering.
   - State management using React hooks.
   - Custom hooks for mobile detection and toast notifications.
-  - Optimized asset management in the `public/` folder.
+  - Optimized asset management in the public/ folder.
   - Easy theming and customization.
   - Linting and build error suppression for smooth development experience.
 
 ## Folder Structure
 
-```
 ├── app/                # Next.js app directory (layout, pages, global styles)
 │   ├── globals.css
 │   ├── layout.tsx
@@ -70,7 +71,6 @@ This project is a Purchase Order Form built with React, HTML, CSS, and Bootstrap
 ├── next.config.mjs
 ├── package.json
 └── README.md
-```
 
 ## Usage
 
@@ -88,5 +88,5 @@ This project is a Purchase Order Form built with React, HTML, CSS, and Bootstrap
 
 ## Customization
 
-- Add or modify UI components in `components/` or `components/ui/`.
-- Update application logic, layout, and pages in the `app/` directory (e.g., `app/page.tsx`, `app/layout.tsx`).
+- Add or modify UI components in components/ or components/ui/.
+- Update application logic, layout, and pages in the app/ directory (e.g., app/page.tsx, `app/layout.tsx`).
